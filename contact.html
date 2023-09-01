@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MissToMrsBox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header lock-padding">
+        <div class="container">
+          <nav class="header__navigation-mobile">
+            <div class="header__navigation-item">
+              <a href="#side-menu" class="hambuger popup-link">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+              </a>
+            </div>
+            <div class="header__navigation-item">
+              <a href="idnex.html" class="logo">
+                <img
+                  src="img/logo_main.png"
+                  alt="logo image of Company"
+                  class="logo__img"
+                />
+              </a>
+            </div>
+            <div class="header__navigation-item">
+              <a href="subscribe.html" target="_blank" class="subscribe-btn"
+                >subscribe</a
+              >
+            </div>
+          </nav>
+          <nav class="header__navigation">
+            <a href="index.html" class="logo">
+              <img
+                src="img/logo_main.png"
+                alt="logo image of Company"
+                class="logo__img"
+              />
+            </a>
+            <ul class="header__list">
+              <li class="header__list-item hideMedia hide">
+                <a
+                  href="#inside-popup"
+                  class="header-container__link popup-link"
+                  >What`s Inside</a
+                >
+              </li>
+              <li class="header__list-item hide">
+                <a href="subscribe.html" target="_blank" class="subscribe-btn"
+                  >subscribe</a
+                >
+              </li>
+              <li class="header__list-item">
+                <a href="#side-menu" class="hambuger popup-link">
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <section class="contact__header">
+          <div class="container">
+            <div class="contact__header-inner wow">
+              <h2 class="contact__title">Contact us</h2>
+              <p class="contact__subtitle">
+                Our <a href="FAQ.html">FAQ page</a> has answers for the most
+                common questions. Didn't find an answer? Our 24/7 Customer
+                Support Team is here to help.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="contact-form">
+          <div class="container">
+            <form action="" class="form">
+              <input type="email" class="form__input" placeholder="Email" />
+              <input type="text" class="form__input" placeholder="Name" />
+              <select name="select">
+                <!--Supplement an id here instead of using 'name'-->
+                <option value="value1" selected>Значение 1</option>
+                <option value="value2">Значение 2</option>
+                <option value="value3">Значение 3</option>
+              </select>
+              <textarea class="form__textarea" placeholder="Message"></textarea>
+              <button class="form__btn wow" type="submit">SeNd</button>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer class="footer wow">
+        <div class="container">
+          <div class="footer-inner">
+            <dl class="footer__desc">
+              <dl class="footer__item footer__desc-item">
+                <dt>GET started</dt>
+                <dd>
+                  <a href="subscribe.html" target="_blank"> Subscribe </a>
+                </dd>
+              </dl>
+              <dl class="footer__item footer__desc-item">
+                <dt>Customer CARE</dt>
+                <dd><a href="contact.html"> Contact us</a></dd>
+                <dd>
+                  <a href="FAQ.html"> FAQ </a>
+                </dd>
+              </dl>
+              <dl class="footer__item footer__desc-item">
+                <dt>LEGAL</dt>
+                <dd><a href="#"> Terms & Conditions </a></dd>
+                <dd><a href="#"> Privacy policy</a></dd>
+                <dd>
+                  <a href="mailto:support@misstomrsbox.com">
+                    support@misstomrsbox.com
+                  </a>
+                </dd>
+              </dl>
+              <div class="footer__item sign-up">
+                <h5 class="sign-up__text">
+                  SIGN UP FOR EXCLUSIVE DISCOUNTS & CONTENT
+                </h5>
+                <form action="" class="sign-up__form">
+                  <input
+                    type="email"
+                    class="sign-up__form"
+                    placeholder="Your Email"
+                  />
+                  <button type="submit" class="sign-up__btn wow">
+                    SIgn Up
+                  </button>
+                </form>
+              </div>
+            </dl>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="container">
+            <div class="copyright-inner">
+              <p class="copyright__text">
+                All Rights Reserved. © 2023 Miss To Mrs Wedding Gifts Inc.
+              </p>
+              <p class="copyright__text">
+                250 University Ave, Suite 251, Toronto ON Canada M5H 3E5
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div id="inside-popup" class="inside-popup popup">
+      <div class="popup__body">
+        <div class="popup__content">
+          <h3 class="popup__title">A theme for each box</h3>
+          <p class="popup__subtitle">
+            Tailor your themes and sequence to your personal journey and plan!
+          </p>
+          <ul class="popup__list">
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card1.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card2.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card1.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card2.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card1.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card2.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card1.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card2.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card1.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card2.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="side-menu" class="side-menu popup">
+      <div class="side-menu__body">
+        <div class="side-menu__content">
+          <div class="side-menu__nav">
+            <div class="side-menu--top">
+              <a href="#header" class="side-menu__close close-popup"
+                ><img
+                  src="img/close-icon.svg"
+                  alt="close icon"
+                  class="close-icon"
+              /></a>
+              <a href="index.html" class="logo">
+                <img
+                  src="img/logo_main.png"
+                  alt="logo image of Company"
+                  class="logo-img"
+                />
+              </a>
+              <a href="subscribe.html" target="_blank" class="subscribe-btn"
+                >subscribe</a
+              >
+            </div>
+            <ul class="side-menu__list">
+              <li class="side-menu__item">
+                <a href="FAQ.html" class="side-menu__link">
+                  <div class="side-menu__image">🙌</div>
+                  <div class="side-menu__text">FAQ</div>
+                </a>
+              </li>
+              <li class="side-menu__item">
+                <a href="contact.html" class="side-menu__link">
+                  <div class="side-menu__image">💬</div>
+                  <div class="side-menu__text">Contact Us</div>
+                </a>
+              </li>
+              <li class="side-menu__item">
+                <a
+                  href="subscribe.html"
+                  target="_blank"
+                  class="side-menu__link"
+                >
+                  <div class="side-menu__image">
+                    &#127873;
+                    <!-- <img src="img/gift-icon.svg" alt="" /> -->
+                  </div>
+                  <div class="side-menu__text">Gift a subscription</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <dl class="side-menu__socials">
+            <dt>FOLLOW US:</dt>
+            <dd>
+              <a href="pinterest.com" class="side-menu__social-link"
+                ><i class="fa-brands fa-pinterest fa-lg"></i
+              ></a>
+            </dd>
+            <dd>
+              <a href="facebook.com" class="side-menu__social-link"
+                ><i class="fa-brands fa-square-facebook fa-lg"></i
+              ></a>
+            </dd>
+            <dd>
+              <a href="instagram.com" class="side-menu__social-link"
+                ><i class="fa fa-instagram fa-lg" aria-hidden="true"></i
+              ></a>
+            </dd>
+            <dd>
+              <a href="tiktok.com" class="side-menu__social-link"
+                ><i class="fa-brands fa-tiktok fa-lg"></i
+              ></a>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="js/swiper.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d9926a0194.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="js/swiper-bundle.min.js"></script> -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

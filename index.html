@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MissToMrsBox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header lock-padding">
+        <div class="container">
+          <nav class="header__navigation-mobile">
+            <div class="header__navigation-item">
+              <a href="#side-menu" class="hambuger popup-link">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+              </a>
+            </div>
+            <div class="header__navigation-item">
+              <a href="idnex.html" class="logo">
+                <img
+                  src="img/logo_main.png"
+                  alt="logo image of Company"
+                  class="logo__img"
+                />
+              </a>
+            </div>
+            <div class="header__navigation-item">
+              <a href="subscribe.html" target="_blank" class="subscribe-btn"
+                >subscribe</a
+              >
+            </div>
+          </nav>
+          <nav class="header__navigation">
+            <a href="index.html" class="logo">
+              <img
+                src="img/logo_main.png"
+                alt="logo image of Company"
+                class="logo__img"
+              />
+            </a>
+            <ul class="header__list">
+              <li class="header__list-item hideMedia hide">
+                <a
+                  href="#inside-popup"
+                  class="header-container__link popup-link"
+                  >What`s Inside</a
+                >
+              </li>
+              <li class="header__list-item hide">
+                <a href="subscribe.html" target="_blank" class="subscribe-btn"
+                  >subscribe</a
+                >
+              </li>
+              <li class="header__list-item">
+                <a href="#side-menu" class="hambuger popup-link">
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <section class="promo">
+          <!-- <img
+            srcset="img/promo-mobile.jpg 1025w, img/promo.jpg 1026w"
+            sizes="(max-width: 1025px) 100vw,
+            1026px"
+            src="img/promo.jpg"
+            alt="Promo Image"
+            class="promo__img"
+          /> -->
+          <div class="promo__img-container wow">
+            <picture>
+              <source
+                class="promo__img"
+                media="(max-width: 1025px)"
+                srcset="img/promo-mobile.jpg"
+              />
+              <img class="promo__img" src="img/promo.jpg" alt="Promo Image" />
+            </picture>
+          </div>
+
+          <div class="promo-content wow">
+            <h1 class="promo__title">
+              Voted #1 Themed Bridal Subscription Box
+            </h1>
+            <p class="promo__text">
+              Bridal boxes to celebrate, pamper & inspire brides-to-be from
+              Engagement to Honeymoon!
+            </p>
+            <div class="advertising-buttons">
+              <a href="subscribe.html" target="_blank" class="subscribe-btn"
+                >subscribe</a
+              >
+              <a href="subscribe.html" target="_blank" class="gift-card-btn"
+                >gift A SUBSCRIPTION</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="boxes wow">
+          <div class="big-container">
+            <div class="boxes-inner">
+              <div class="boxes-content">
+                <h2 class="boxes__title">What's in the boxes?</h2>
+                <p class="boxes__text">
+                  Each themed box is curated with 5-6 premium products created
+                  by our in-house design team with superior quality materials
+                  and trendy designs.
+                </p>
+                <ul class="boxes__list">
+                  <li class="boxes__item">
+                    Planners, Checklists, Calendars & Tips
+                  </li>
+                  <li class="boxes__item">Decor Elements & Party Essentials</li>
+                  <li class="boxes__item">Exclusive Apparel & Bridal Merch</li>
+                  <li class="boxes__item">
+                    Wedding day & honeymoon essentials
+                  </li>
+                </ul>
+                <button class="boxes__button">view THEMES</button>
+              </div>
+              <div class="boxes__img-container">
+                <img
+                  src="img/boxes.gif"
+                  alt="gif image with product of company"
+                  class="boxes__img"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="advertising wow">
+            <div class="big-container">
+              <div class="advertising-inner">
+                <div class="advertising__container-img">
+                  <img
+                    src="img/advertising.svg"
+                    alt="girls with married`s things"
+                    class="advertising__img"
+                  />
+                </div>
+                <p class="advertising__text">
+                  ⭐⭐⭐⭐⭐ "From helpful tips to the useful accessories. A
+                  must for any bride-to-be."
+                </p>
+                <div class="advertising-buttons">
+                  <a href="subscribe.html" target="_blank" class="subscribe-btn"
+                    >subscribe</a
+                  >
+                  <a href="subscribe.html" target="_blank" class="gift-card-btn"
+                    >gift A SUBSCRIPTION</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="how">
+          <div class="big-container">
+            <h2 class="how__title">How it works</h2>
+            <ol class="how__list wow">
+              <li class="how__item">
+                <h4 class="how__item-name">CUSTOMIZE A PLAN</h4>
+                <p class="how__item-text">
+                  Even if the date is not set, we'll curate the perfect plan for
+                  2023 to 2025+ weddings.
+                </p>
+              </li>
+              <li class="how__item">
+                <h4 class="how__item-name">SUBSCRIBE</h4>
+                <p class="how__item-text">
+                  $35 USD per box, get themed boxes tailored to stages of
+                  engagement.
+                </p>
+              </li>
+              <li class="how__item">
+                <h4 class="how__item-name">CELEBRATE & PLAN</h4>
+                <p class="how__item-text">
+                  Get pampered with thoughtful gifts all the way until
+                  Honeymoon.
+                </p>
+              </li>
+            </ol>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="big-container">
+            <div class="reviews-inner">
+              <h2 class="reviews__title">Must-Have For Every Bride-To-Be</h2>
+              <div class="swiper-container wow">
+                <div class="reviews__swiper swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="swiper-slide__content">
+                        <h6 class="reviews__item-title">
+                          Thanks so much for the box really enjoy…
+                        </h6>
+                        <p class="reviews__text">
+                          Thanks so much for the box really enjoy opening it and
+                          being surprised of what will come next . Thanks for
+                          keeping us in track and making it easier with the
+                          planners. Thanks so much for the box really enjoy
+                          opening it and being surprised of what will come next
+                          . Thanks for keeping us in track and making it easier
+                          with the planners.
+                        </p>
+                        <cite class="revies__author">Miss M</cite>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-slide__content">
+                        <h6 class="reviews__item-title">
+                          Thanks so much for the box really enjoy…
+                        </h6>
+                        <p class="reviews__text">
+                          Thanks so much for the box really enjoy opening it and
+                          being surprised of what will come next . Thanks for
+                          keeping us in track and making it easier with the
+                          planners. Thanks so much for the box really enjoy
+                          opening it and being surprised of what will come next
+                          . Thanks for keeping us in track and making it easier
+                          with the planners. planners. Thanks so much for the
+                          box really enjoy opening it and being surprised of
+                          what will come next . Thanks for keeping us in track
+                          and making it easier with the planners. planners.
+                          Thanks so much for the box really enjoy opening it and
+                          being surprised of what will come next . Thanks for
+                          keeping us in track and making it easier with the
+                          planners.
+                        </p>
+                        <cite class="revies__author">Miss M</cite>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-slide__content">
+                        <h6 class="reviews__item-title">
+                          Thanks so much for the box really enjoy…
+                        </h6>
+                        <p class="reviews__text">
+                          Thanks so much for the box really enjoy opening it and
+                          being surprised of what will come next . Thanks for
+                          keeping us in track and making it easier with the
+                          planners. Thanks so much for the box re being
+                          surprised of what will come next . Thanks for
+                          keepingill come next . Thanks for keeping us in track
+                          and making it easier with the planners. planners.
+                          Thanks so much for the box really enjoy opening it and
+                          being surprised of what will come next . Thanks for
+                          keeping us in track and makially enjoy opening it and
+                          being surprised of what will come next . Thanks for
+                          keeping us in track and making it easier with the
+                          planners.
+                        </p>
+                        <cite class="revies__author">Miss M</cite>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-slide__content">
+                        <h6 class="reviews__item-title">
+                          Thanks so much for the box really enjoy…
+                        </h6>
+                        <p class="reviews__text">
+                          Thanks so much for the box really enjoy opening it and
+                          ng it easier with the planners. planners. Thanks so
+                          much for the box really enjoy opening it and being
+                          surprised of what will come next . Thanks for keeping
+                          us in track and making it easier with the planners.
+                        </p>
+                        <cite class="revies__author">Miss M</cite>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-slide__content">
+                        <h6 class="reviews__item-title">
+                          Thanks so much for the box really enjoy…
+                        </h6>
+                        <p class="reviews__text">
+                          Thanks so much for the box really enjoy opening it and
+                          ng it easier with the planners. planners. Thanks so
+                          much for the box really enjoy opening it and being
+                          surprised of what will come next . Thanks for keeping
+                          us in track and making it easier with the planners.
+                        </p>
+                        <cite class="revies__author">Miss M</cite>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-slide__content">
+                        <h6 class="reviews__item-title">
+                          Thanks so much for the box really enjoy…
+                        </h6>
+                        <p class="reviews__text">
+                          Thanks so much for the box really enjoy opening it and
+                          ng it easier with the planners. planners. Thanks so
+                          much for the box really enjoy opening it and being
+                          surprised of what will come next . Thanks for keeping
+                          us in track and making it easier with the planners.
+                        </p>
+                        <cite class="revies__author">Miss M</cite>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-slide__content">
+                        <h6 class="reviews__item-title">
+                          Thanks so much for the box really enjoy…
+                        </h6>
+                        <p class="reviews__text">
+                          Thanks so much for the box really enjoy opening it and
+                          ng it easier with the planners. planners. Thanks so
+                          much for the box really enjoy opening it and being
+                          surprised of what will come next . Thanks for keeping
+                          us in track and making it easier with the planners.
+                        </p>
+                        <cite class="revies__author">Miss M</cite>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-slide__content">
+                        <h6 class="reviews__item-title">
+                          Thanks so much for the box really enjoy…
+                        </h6>
+                        <p class="reviews__text">
+                          Thanks so much for the box really enjoy opening it and
+                          ng it easier with the planners. planners. Thanks so
+                          much for the box really enjoy opening it and being
+                          surprised of what will come next . Thanks for keeping
+                          us in track and making it easier with the planners.
+                        </p>
+                        <cite class="revies__author">Miss M</cite>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-slide__content">
+                        <h6 class="reviews__item-title">
+                          Thanks so much for the box really enjoy…
+                        </h6>
+                        <p class="reviews__text">
+                          Thanks so much for the box really enjoy opening it and
+                          ng it easier with the planners. planners. Thanks so
+                          much for the box really enjoy opening it and being
+                          surprised of what will come next . Thanks for keeping
+                          us in track and making it easier with the planners.
+                        </p>
+                        <cite class="revies__author">Miss M</cite>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-slide__content">
+                        <h6 class="reviews__item-title">
+                          Thanks so much for the box really enjoy…
+                        </h6>
+                        <p class="reviews__text">
+                          Thanks so much for the box really enjoy opening it and
+                          ng it easier with the planners. planners. Thanks so
+                          much for the box really enjoy opening it and being
+                          surprised of what will come next . Thanks for keeping
+                          us in track and making it easier with the planners.
+                        </p>
+                        <cite class="revies__author">Miss M</cite>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="reviews__swiper-button-next swiper-button-next">
+                  >
+                </div>
+                <div class="reviews__swiper-button-prev swiper-button-prev">
+                  <
+                </div>
+              </div>
+              <div class="reviews__gifs wow">
+                <img src="img/reviews-1.gif" alt="" class="reviews__gifs-img" />
+                <img src="img/reviews-2.gif" alt="" class="reviews__gifs-img" />
+                <img src="img/reviews-3.gif" alt="" class="reviews__gifs-img" />
+              </div>
+              <div class="advertising wow">
+                <div class="big-container">
+                  <div class="advertising-inner">
+                    <div class="advertising__container-img">
+                      <img
+                        src="img/advertising.svg"
+                        alt="girls with married`s things"
+                        class="advertising__img"
+                      />
+                    </div>
+                    <p class="advertising__text">
+                      ⭐⭐⭐⭐⭐ "From helpful tips to the useful accessories. A
+                      must for any bride-to-be."
+                    </p>
+                    <div class="advertising-buttons">
+                      <a
+                        href="subscribe.html"
+                        target="_blank"
+                        class="subscribe-btn"
+                        >subscribe</a
+                      >
+                      <a
+                        href="subscribe.html"
+                        target="_blank"
+                        class="gift-card-btn"
+                        >gift A SUBSCRIPTION</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="faq">
+          <div class="big-container">
+            <div class="faq-inner">
+              <div class="faq__content wow">
+                <h2 class="faq-title">Frequently Asked Questions</h2>
+                <p class="faq__text">
+                  Have questions about your existing subscription? Read all FAQs
+                  <a href="FAQ.html" class="faq__text-link">here</a> or
+                  <a href="contact.html" class="faq__text-link">contact</a> our
+                  24/7 support team!
+                </p>
+              </div>
+              <div data-spoilers data-one-spoiler class="faq__blocks wow">
+                <div class="faq__block">
+                  <button data-spoiler class="faq__block-title">
+                    The wedding date is far away (or hasn’t been set), should I
+                    wait?
+                  </button>
+                  <p class="faq__block-text">
+                    Absolutely not! You can start a subscription regardless of
+                    how far away the wedding date is or whether it has been set
+                    yet. Our plans are designed to be flexible and customized to
+                    align with the wedding date. For instance, if the wedding is
+                    only 10 months away, we offer monthly boxes. However, if
+                    your wedding is over 12 months away, we have options for
+                    every 2 or 3-month delivery intervals.
+                    <br />
+                    <br />
+
+                    And what if you don’t know the wedding date? No problem!
+                    Start with an every-2-months or every-3-months plan and
+                    adjust the subscription once the date is set. As the big day
+                    approaches, the subscription will automatically switch to
+                    monthly deliveries to ensure the bride receives all the
+                    themes.
+                  </p>
+                </div>
+                <div class="faq__block">
+                  <button data-spoiler class="faq__block-title">
+                    Only a few months to go, and everything is planned, is it
+                    still worth it?
+                  </button>
+                  <p class="faq__block-text">
+                    Yes, even if the wedding is just months away and everything
+                    is planned, there's still great value in subscribing to Miss
+                    To Mrs. We customize each subscription to cater to specific
+                    needs and wedding timelines, ensuring that the bride
+                    receives the most relevant box themes that align with her
+                    wedding planning journey. Besides, we offer accelerated
+                    delivery options such as bi-weekly shipments. If you're
+                    interested in even more frequent deliveries, you can always
+                    contact us at support@misstomrsbox.com and we'll arrange
+                    weekly shipments to suit your needs.
+                  </p>
+                </div>
+                <div class="faq__block">
+                  <button data-spoiler class="faq__block-title">
+                    What's inside Miss To Mrs Boxes?
+                  </button>
+                  <p class="faq__block-text">
+                    Miss To Mrs Boxes are packed with 5-7 full-sized products.
+                    Boxes themes will be tailored to the wedding date to ensure
+                    the bride gets the most useful products at the best time in
+                    her planning journey.
+                    <br />
+                    <br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                    minus ut pariatur at unde. Sapiente id consequatur quibusdam
+                    nihil cum, amet earum dolor blanditiis, quo voluptas, ad
+                    culpa delectus doloremque dignissimos error?
+                  </p>
+                </div>
+                <div class="faq__block">
+                  <button data-spoiler class="faq__block-title">
+                    Can I really cancel the subscription at any time? No fees?
+                  </button>
+                  <p class="faq__block-text">
+                    🎉 YES! Cancel any time. No cancellation fees.
+                    <br />
+                    <br />
+                    Our mission is to delight all brides-to-be and help them
+                    plan their dream weddings. While over 100,000 brides loved
+                    our boxes, we do understand that our box isn't for everyone.
+                    That's why all new subscribers after June 1, 2021, can
+                    cancel their Miss To Mrs Box subscriptions at any time,
+                    without any penalties or cancellation fees (as long as you
+                    let us know at least 48hrs before the next payment).
+                  </p>
+                </div>
+                <div class="faq__block">
+                  <button data-spoiler class="faq__block-title">
+                    When will the first box ship & from where?
+                  </button>
+                  <p class="faq__block-text">
+                    The first box ships super fast! Typically you'll receive a
+                    tracking number in just 2 business days!
+                    <br /><br />
+                    For USA orders, boxes ship from our NY & OH, USA locations,
+                    with no duties of any kind.
+                    <br /><br />
+                    For Canada orders, boxes ship from our ON, Canada location,
+                    with no duties of any kind.
+                    <br /><br />
+                    For UK orders, VAT & duties are included. No extra fees on
+                    delivery.
+                    <br /><br />
+                    For Australian orders, duties & VAT are included in the
+                    price. No extra Taxes or Customs Fees.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer wow">
+        <div class="container">
+          <div class="footer-inner">
+            <dl class="footer__desc">
+              <dl class="footer__item footer__desc-item">
+                <dt>GET started</dt>
+                <dd>
+                  <a href="subscribe.html" target="_blank"> Subscribe </a>
+                </dd>
+              </dl>
+              <dl class="footer__item footer__desc-item">
+                <dt>Customer CARE</dt>
+                <dd><a href="contact.html"> Contact us</a></dd>
+                <dd>
+                  <a href="FAQ.html"> FAQ </a>
+                </dd>
+              </dl>
+              <dl class="footer__item footer__desc-item">
+                <dt>LEGAL</dt>
+                <dd><a href="#"> Terms & Conditions </a></dd>
+                <dd><a href="#"> Privacy policy</a></dd>
+                <dd>
+                  <a href="mailto:support@misstomrsbox.com">
+                    support@misstomrsbox.com
+                  </a>
+                </dd>
+              </dl>
+              <div class="footer__item sign-up">
+                <h5 class="sign-up__text">
+                  SIGN UP FOR EXCLUSIVE DISCOUNTS & CONTENT
+                </h5>
+                <form action="" class="sign-up__form">
+                  <input
+                    type="email"
+                    class="sign-up__form"
+                    placeholder="Your Email"
+                  />
+                  <button type="submit" class="sign-up__btn wow">
+                    SIgn Up
+                  </button>
+                </form>
+              </div>
+            </dl>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="container">
+            <div class="copyright-inner">
+              <p class="copyright__text">
+                All Rights Reserved. © 2023 Miss To Mrs Wedding Gifts Inc.
+              </p>
+              <p class="copyright__text">
+                250 University Ave, Suite 251, Toronto ON Canada M5H 3E5
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div id="inside-popup" class="inside-popup popup">
+      <div class="popup__body">
+        <div class="popup__content">
+          <h3 class="popup__title">A theme for each box</h3>
+          <p class="popup__subtitle">
+            Tailor your themes and sequence to your personal journey and plan!
+          </p>
+          <ul class="popup__list">
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card1.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card2.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card1.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card2.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card1.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card2.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card1.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card2.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card1.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+            <li class="popup__item">
+              <div class="popup__item-container-img">
+                <img
+                  src="img/theme-card2.svg"
+                  alt="content image"
+                  class="popup__item-img"
+                />
+              </div>
+              <div class="popup__item-content">
+                <h6 class="popup__item-title">LET’S PLAN THIS!</h6>
+                <p class="popup__item-text">
+                  Celebrate your new status and get goodies that are useful at
+                  every stage of your planning journey.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="side-menu" class="side-menu popup">
+      <div class="side-menu__body">
+        <div class="side-menu__content">
+          <div class="side-menu__nav">
+            <div class="side-menu--top">
+              <a href="#header" class="side-menu__close close-popup"
+                ><img
+                  src="img/close-icon.svg"
+                  alt="close icon"
+                  class="close-icon"
+              /></a>
+              <a href="index.html" class="logo">
+                <img
+                  src="img/logo_main.png"
+                  alt="logo image of Company"
+                  class="logo-img"
+                />
+              </a>
+              <a href="subscribe.html" target="_blank" class="subscribe-btn"
+                >subscribe</a
+              >
+            </div>
+            <ul class="side-menu__list">
+              <li class="side-menu__item">
+                <a href="FAQ.html" class="side-menu__link">
+                  <div class="side-menu__image">🙌</div>
+                  <div class="side-menu__text">FAQ</div>
+                </a>
+              </li>
+              <li class="side-menu__item">
+                <a href="contact.html" class="side-menu__link">
+                  <div class="side-menu__image">💬</div>
+                  <div class="side-menu__text">Contact Us</div>
+                </a>
+              </li>
+              <li class="side-menu__item">
+                <a
+                  href="subscribe.html"
+                  target="_blank"
+                  class="side-menu__link"
+                >
+                  <div class="side-menu__image">
+                    &#127873;
+                    <!-- <img src="img/gift-icon.svg" alt="" /> -->
+                  </div>
+                  <div class="side-menu__text">Gift a subscription</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <dl class="side-menu__socials">
+            <dt>FOLLOW US:</dt>
+            <dd>
+              <a href="pinterest.com" class="side-menu__social-link"
+                ><i class="fa-brands fa-pinterest fa-lg"></i
+              ></a>
+            </dd>
+            <dd>
+              <a href="facebook.com" class="side-menu__social-link"
+                ><i class="fa-brands fa-square-facebook fa-lg"></i
+              ></a>
+            </dd>
+            <dd>
+              <a href="instagram.com" class="side-menu__social-link"
+                ><i class="fa fa-instagram fa-lg" aria-hidden="true"></i
+              ></a>
+            </dd>
+            <dd>
+              <a href="tiktok.com" class="side-menu__social-link"
+                ><i class="fa-brands fa-tiktok fa-lg"></i
+              ></a>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/d9926a0194.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
